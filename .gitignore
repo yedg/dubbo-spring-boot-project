@@ -24,6 +24,7 @@ hs_err_pid*
 .settings/
 .project
 .classpath
+.factorypath
 
 # idea ignore
 .idea/
@@ -42,3 +43,6 @@ target
 # system ignore
 .DS_Store
 Thumbs.db
+
+# Maven ignore
+.flattened-pom.xml

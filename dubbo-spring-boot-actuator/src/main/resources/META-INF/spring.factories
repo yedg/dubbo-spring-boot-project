@@ -1,6 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.alibaba.boot.dubbo.actuate.autoconfigure.DubboEndpointAutoConfiguration,\
-com.alibaba.boot.dubbo.actuate.autoconfigure.DubboHealthIndicatorAutoConfiguration
-
-org.springframework.boot.actuate.autoconfigure.ManagementContextConfiguration=\
-com.alibaba.boot.dubbo.actuate.autoconfigure.DubboMvcEndpointManagementContextConfiguration
+org.apache.dubbo.spring.boot.actuate.autoconfigure.DubboEndpointAnnotationAutoConfiguration
